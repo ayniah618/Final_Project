@@ -92,13 +92,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-0R-jij">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-0R-jij">
                                 <rect key="frame" x="0.0" y="44" width="414" height="1402"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wbf-Hu-i6M">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wbf-Hu-i6M">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kf9-O5-u17">
                                                 <rect key="frame" x="177" y="93" width="60" height="30"/>
@@ -118,7 +116,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJP-bu-0OV">
-                                                <rect key="frame" x="179" y="160" width="56" height="30"/>
+                                                <rect key="frame" x="179" y="160" width="56" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
@@ -283,10 +281,109 @@
                                                     <segue destination="AzX-iN-QuK" kind="show" id="uNd-rx-hvm"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drb-vv-P3x">
+                                                <rect key="frame" x="157" y="871" width="101" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Rastafarianism">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="qmB-Fe-ddk" kind="show" id="U9i-G4-Jnd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUq-Lz-Jhj">
+                                                <rect key="frame" x="169" y="953" width="68" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Shintoism">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="X0M-0p-HGf" kind="show" id="Vkt-VK-DQZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qd-dj-M3T">
+                                                <rect key="frame" x="181" y="1032" width="54" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Sikhism">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="eAe-Zo-kcu" kind="show" id="FLd-ir-nu2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I2Q-mY-CYw">
+                                                <rect key="frame" x="181" y="1111" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Taoism">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ARw-Jy-7wa" kind="show" id="moO-Zh-jof"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mV-uT-qCC">
+                                                <rect key="frame" x="181" y="1178" width="43" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Wicca">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="A1a-gB-kA1" kind="show" id="isl-fx-KGd"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="H0O-4G-HxD"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="JNE-Ib-Mr1"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="trailing" secondItem="ZyS-r5-Q8y" secondAttribute="trailing" id="Dpm-93-f7C"/>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="top" secondItem="KoC-mW-T8g" secondAttribute="top" id="WJz-20-8uc"/>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="leading" secondItem="ZyS-r5-Q8y" secondAttribute="leading" id="XYC-2d-WxH"/>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="top" secondItem="ZyS-r5-Q8y" secondAttribute="top" id="a36-QL-ggD"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wbf-Hu-i6M" secondAttribute="bottom" id="aTw-f3-7Xw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wbf-Hu-i6M" secondAttribute="trailing" id="irM-Cw-Frj"/>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="leading" secondItem="ZyS-r5-Q8y" secondAttribute="leading" id="n6q-YN-b1m"/>
+                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="trailing" secondItem="ZyS-r5-Q8y" secondAttribute="trailing" id="qvK-ek-qdV"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="KoC-mW-T8g"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ZyS-r5-Q8y"/>
                             </scrollView>
@@ -303,91 +400,6 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qd-dj-M3T">
-                                <rect key="frame" x="180" y="1169" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Sikhism">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="eAe-Zo-kcu" kind="show" id="FLd-ir-nu2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUq-Lz-Jhj">
-                                <rect key="frame" x="173" y="1087" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Shintoism">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="X0M-0p-HGf" kind="show" id="Vkt-VK-DQZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drb-vv-P3x">
-                                <rect key="frame" x="157" y="999" width="101" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Rastafarianism">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="qmB-Fe-ddk" kind="show" id="U9i-G4-Jnd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mV-uT-qCC">
-                                <rect key="frame" x="186" y="915" width="43" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Wicca">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="A1a-gB-kA1" kind="show" id="isl-fx-KGd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I2Q-mY-CYw">
-                                <rect key="frame" x="182" y="1243" width="49" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Taoism">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="ARw-Jy-7wa" kind="show" id="moO-Zh-jof"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-Je-kTt">
                                 <rect key="frame" x="20" y="1353" width="161" height="53"/>
@@ -408,10 +420,34 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="jQm-0R-jij" secondAttribute="bottom" id="6zQ-ie-tJ7"/>
+                            <constraint firstItem="jQm-0R-jij" firstAttribute="top" secondItem="lbK-mH-bLe" secondAttribute="top" constant="44" id="fb0-s8-Rm1"/>
+                            <constraint firstItem="jQm-0R-jij" firstAttribute="centerX" secondItem="ujE-Fl-46N" secondAttribute="centerX" id="fhL-Y2-zzS"/>
+                            <constraint firstItem="Wbf-Hu-i6M" firstAttribute="width" secondItem="ujE-Fl-46N" secondAttribute="width" id="h1C-sN-6ke"/>
+                            <constraint firstItem="jQm-0R-jij" firstAttribute="width" secondItem="ujE-Fl-46N" secondAttribute="width" id="rFD-uF-bie"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lbK-mH-bLe"/>
                     </view>
                     <navigationItem key="navigationItem" id="xdU-SS-Gwv"/>
                     <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="Atheism" destination="dJP-bu-0OV" id="2lr-5C-bYt"/>
+                        <outlet property="Buddhism" destination="Uu9-UZ-KQZ" id="b7C-Rf-npa"/>
+                        <outlet property="Catholocism" destination="Aad-HY-k8w" id="cJE-J7-oCz"/>
+                        <outlet property="Christianity" destination="HIX-nW-5Pg" id="RKx-Bq-Zod"/>
+                        <outlet property="Gnosticism" destination="5c0-Dt-7on" id="bVx-wA-Xkx"/>
+                        <outlet property="Hinduism" destination="Suz-h9-b0J" id="DB8-mz-iSU"/>
+                        <outlet property="Islam" destination="LiM-uf-Fuh" id="S2d-84-hsr"/>
+                        <outlet property="Judaism" destination="8pN-2b-Cn4" id="Lch-hQ-QHD"/>
+                        <outlet property="Rastafarianism" destination="drb-vv-P3x" id="I2M-KG-j4S"/>
+                        <outlet property="Shintoism" destination="PUq-Lz-Jhj" id="GSG-iq-xD0"/>
+                        <outlet property="Sikhism" destination="1qd-dj-M3T" id="pS3-Sr-ZMl"/>
+                        <outlet property="Taoism" destination="I2Q-mY-CYw" id="mPl-Kj-IvM"/>
+                        <outlet property="Wicca" destination="3mV-uT-qCC" id="Nee-mP-8in"/>
+                        <outlet property="agnostic" destination="Kf9-O5-u17" id="3yN-A5-Skc"/>
+                        <outlet property="scrollView" destination="jQm-0R-jij" id="aQL-Lb-uKf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7z-pE-eBQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -438,6 +474,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTE-tK-ofG">
+                                <rect key="frame" x="44" y="102" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SbW-cP-nYB"/>
@@ -1028,7 +1077,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-QK-ZBN">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hM0-gN-TTQ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -1102,6 +1151,7 @@
                             <constraint firstAttribute="bottom" secondItem="Lpy-QK-ZBN" secondAttribute="bottom" id="7tm-gJ-OYZ"/>
                             <constraint firstItem="hM0-gN-TTQ" firstAttribute="height" secondItem="OUv-RT-xrh" secondAttribute="height" multiplier="1.18765" id="QyD-yn-daL"/>
                             <constraint firstItem="Lpy-QK-ZBN" firstAttribute="top" secondItem="jOz-nM-ZR4" secondAttribute="top" id="mcg-b1-5el"/>
+                            <constraint firstItem="Lpy-QK-ZBN" firstAttribute="leading" secondItem="jOz-nM-ZR4" secondAttribute="leading" id="tNV-hc-pvF"/>
                             <constraint firstItem="Lpy-QK-ZBN" firstAttribute="leading" secondItem="jOz-nM-ZR4" secondAttribute="leading" id="yfe-5D-K1h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jOz-nM-ZR4"/>
@@ -1176,8 +1226,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TIG-cU-Q8X"/>
-        <segue reference="9uK-58-LZb"/>
+        <segue reference="JRU-ct-tAk"/>
+        <segue reference="3XC-QY-jGN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="newsIcon" width="225" height="225"/>
