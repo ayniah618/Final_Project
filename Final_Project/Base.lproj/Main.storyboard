@@ -7,21 +7,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller21-->
-        <scene sceneID="H4q-YV-3EH">
+        <!--View Controller-->
+        <scene sceneID="Idb-NP-Fz2">
             <objects>
-                <viewController id="kw6-Jy-CAI" customClass="ViewController21" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wxg-Ti-DmT">
+                <viewController id="17H-d9-6L6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kbB-Cf-jUr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="biN-6R-okz"/>
+                        <viewLayoutGuide key="safeArea" id="QB3-Ew-1mt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HAk-Rd-Tjf"/>
+                    <navigationItem key="navigationItem" id="DX1-be-jwa"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VlV-Wf-BK2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8e-Tg-68L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-873" y="108"/>
+            <point key="canvasLocation" x="-912" y="-208"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -54,24 +54,25 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1S-0p-WvA">
-                                <rect key="frame" x="76" y="600" width="95" height="89"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bc-ah-Kfh">
+                                <rect key="frame" x="223" y="574" width="132" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="5_Olympic_newspaper_newsletter_press_release_article-512.png">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
+                                <state key="normal" title="Button" image="religionIcon"/>
                                 <connections>
-                                    <segue destination="kw6-Jy-CAI" kind="show" id="TF1-cA-ove"/>
+                                    <segue destination="2t0-Mn-CgP" kind="show" id="9uK-58-LZb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LA1-Gj-GPO">
-                                <rect key="frame" x="283" y="600" width="73" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hr6-zK-h3z">
+                                <rect key="frame" x="5" y="5" width="5" height="5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Untitled6.jpg">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
+                                <state key="normal" title="Button" image="religionIcon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZR-oy-eHj">
+                                <rect key="frame" x="5" y="598" width="210" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="newsIcon"/>
                                 <connections>
-                                    <segue destination="2t0-Mn-CgP" kind="show" id="VSH-bR-SNQ"/>
+                                    <segue destination="17H-d9-6L6" kind="show" id="77a-WN-cub"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,15 +88,17 @@
         <scene sceneID="vzD-Lj-9yf">
             <objects>
                 <viewController id="f2e-vn-phK" customClass="ViewController6" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ujE-Fl-46N">
+                    <view key="view" contentMode="scaleToFill" id="ujE-Fl-46N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-0R-jij">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-0R-jij">
                                 <rect key="frame" x="0.0" y="44" width="414" height="1402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wbf-Hu-i6M">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wbf-Hu-i6M">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kf9-O5-u17">
                                                 <rect key="frame" x="177" y="93" width="60" height="30"/>
@@ -251,7 +254,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFL-7c-hGd">
-                                                <rect key="frame" x="125" y="0.0" width="163" height="71"/>
+                                                <rect key="frame" x="125.5" y="0.0" width="163" height="71"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Religions">
@@ -282,23 +285,8 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="T96-jH-bAO"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="tuw-Ba-Tbe"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="bottom" secondItem="ZyS-r5-Q8y" secondAttribute="bottom" id="0dP-VK-xAt"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="leading" secondItem="ZyS-r5-Q8y" secondAttribute="leading" id="BWN-r8-Wqa"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="bottom" secondItem="ZyS-r5-Q8y" secondAttribute="bottom" id="EVb-Fb-kHc"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="trailing" secondItem="ZyS-r5-Q8y" secondAttribute="trailing" id="Fh0-cG-Dd8"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="top" secondItem="ZyS-r5-Q8y" secondAttribute="top" id="Gdy-Ja-kH0"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="leading" secondItem="ZyS-r5-Q8y" secondAttribute="leading" id="S0g-Jf-rJm"/>
-                                    <constraint firstAttribute="height" constant="1500" id="iE1-mB-2OI"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="top" secondItem="ZyS-r5-Q8y" secondAttribute="top" id="rdZ-tN-XVV"/>
-                                    <constraint firstItem="Wbf-Hu-i6M" firstAttribute="trailing" secondItem="ZyS-r5-Q8y" secondAttribute="trailing" id="uPY-Il-4Z0"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="KoC-mW-T8g"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ZyS-r5-Q8y"/>
                             </scrollView>
@@ -420,14 +408,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="jQm-0R-jij" secondAttribute="bottom" id="S52-dF-Yw8"/>
-                            <constraint firstItem="jQm-0R-jij" firstAttribute="leading" secondItem="lbK-mH-bLe" secondAttribute="leading" id="Vam-ZP-esN"/>
-                            <constraint firstItem="jQm-0R-jij" firstAttribute="top" secondItem="lbK-mH-bLe" secondAttribute="top" id="WXp-wb-YfH"/>
-                            <constraint firstItem="jQm-0R-jij" firstAttribute="trailing" secondItem="lbK-mH-bLe" secondAttribute="trailing" id="cLn-Pa-ED1"/>
-                            <constraint firstItem="Wbf-Hu-i6M" firstAttribute="height" secondItem="ujE-Fl-46N" secondAttribute="height" multiplier="0.950893" id="pH7-Bt-QTw"/>
-                            <constraint firstItem="Wbf-Hu-i6M" firstAttribute="width" secondItem="ujE-Fl-46N" secondAttribute="width" id="pgL-9l-IIU"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lbK-mH-bLe"/>
                     </view>
                     <navigationItem key="navigationItem" id="xdU-SS-Gwv"/>
@@ -919,7 +899,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Overview">
                                             <attributes>
-                                                <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1080,10 +1060,6 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVI-Rz-C6o">
-                                                <rect key="frame" x="63" y="527" width="289" height="206"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -1164,7 +1140,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="TBC">
                                         <attributes>
-                                            <font key="NSFont" size="61" name=".SFNS-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="61"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1201,10 +1177,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TIG-cU-Q8X"/>
-        <segue reference="3XC-QY-jGN"/>
+        <segue reference="9uK-58-LZb"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="5_Olympic_newspaper_newsletter_press_release_article-512.png" width="512" height="512"/>
-        <image name="Untitled6.jpg" width="205.71427917480469" height="205.71427917480469"/>
+        <image name="newsIcon" width="225" height="225"/>
+        <image name="religionIcon" width="1000" height="1000"/>
     </resources>
 </document>
