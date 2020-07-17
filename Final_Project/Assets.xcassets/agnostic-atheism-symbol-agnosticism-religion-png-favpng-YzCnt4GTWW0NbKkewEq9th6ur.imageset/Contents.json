@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "agnostic-atheism-symbol-agnosticism-religion-png-favpng-YzCnt4GTWW0NbKkewEq9th6ur.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

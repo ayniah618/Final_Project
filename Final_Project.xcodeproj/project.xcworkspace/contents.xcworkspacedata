@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../Downloads/5eb62443042e740d150562e7_About SIKHISM1.png">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
